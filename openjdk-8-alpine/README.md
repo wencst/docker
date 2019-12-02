@@ -1,4 +1,4 @@
-Base on java:openjdk-8-alpine, and resolve the system vulnerabilities in https://cve.mitre.org .
+Base on java:openjdk-8-alpine, and resolve the system vulnerabilities in https://cve.mitre.org . Be checked by aws ECR.
 
 | vulnerabilities                                              | software          | level  |
 | ------------------------------------------------------------ | ----------------- | ------ |
