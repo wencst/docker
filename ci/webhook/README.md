@@ -4,6 +4,7 @@
 * docker 17.05.0-ce
 * node v14.7.0
 * git-webhook-ci 1.0.0
+* ssh
 
 ## Usage
 
@@ -40,6 +41,16 @@ If you use gitee , then
 * Use git in container
 
 You should add private key into `/root/.ssh/id_rsa` .
+
+* Use ssh in container
+
+You should add private key into `/root/.ssh/id_rsa` .
+
+And use ssh like below to avoid interactivity:
+
+```
+ssh -o StrictHostKeyChecking=no  "cd /data;docker-compose down"
+```
 
 ## Change hook script
 * Change shell
