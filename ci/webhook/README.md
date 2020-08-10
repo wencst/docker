@@ -49,7 +49,7 @@ You should add private key into `/root/.ssh/id_rsa` .
 And use ssh like below to avoid interactivity:
 
 ```
-ssh -o StrictHostKeyChecking=no  "cd /data;docker-compose down"
+ssh -o StrictHostKeyChecking=no user@ip "cd /data;docker-compose down"
 ```
 
 ## Change hook script
