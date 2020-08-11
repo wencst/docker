@@ -44,7 +44,7 @@ You should add private key into `/root/.ssh/id_rsa` .
 
 * Use ssh in container
 
-You should add private key into `/root/.ssh/id_rsa` .
+You should add private key into `/root/.ssh/id_rsa` and add public key into authorized_keys.
 
 And use ssh like below to avoid interactivity:
 
